@@ -1,7 +1,7 @@
 import React from "react";
 import { useState ,useEffect} from "react";
 
-const Header = ({ options }) => {
+const Dropdown = ({ options }) => {
   console.log(options);
   // State that shows the selected options
   const [selected, setSelected] = useState("");
@@ -44,4 +44,4 @@ const Header = ({ options }) => {
   );
 };
 
-export default Header;
+export default Dropdown;
